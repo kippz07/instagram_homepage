@@ -1,0 +1,120 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+
+}
+
+main {
+	width: 85%;
+    height: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+main aside {
+	display: inline-block;
+}
+
+#home {
+	height: 30px;
+	width: 70px;
+	border-width: 3px;
+	border-color: #1c5380;
+	display: inline-block;
+	border-style: solid;
+	border-radius: 5px;
+	color: white;
+	font-style: bold;
+	font-family: Arial;
+	padding: 0 7px;
+    float: right;
+    margin-top: 24px;
+    margin-right: 0px;
+}
+
+#homelogo {
+	float: left;
+    padding-top: 5px;
+}
+
+#login {
+	display: inline-block;
+	padding-bottom: 10px;
+	float: right;
+    margin: auto;
+    padding-top: 5px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+main section {
+	display: inline-block;
+	width: 500px;
+	margin: 30px;
+}
+
+#imgspacing {
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-left: 40px;
+}
+
+#backg {
+	background-image: url("../images/frame.png");
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-right: 40px; 
+	clear: both;
+}
+
+p {
+
+}
+span {
+	font-weight: bold;
+}
+
+h1 {
+	color: #06365f;
+	padding-top: 40px;
+}
+
+#head {
+	color: #06365f;
+}
+
+.img {
+	display: inline-block;
+	float: left;
+    padding-top: 5px;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 0 8px;
+	text-transform: uppercase;
+	color: #1c5380;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+footer ul {
+	margin-left: 60px;
+	text-align: center;
+}
+
+footer {
+	padding-top: 50px;
+}
+
+#cpright {
+	color: lightgrey;
+}
