@@ -13,9 +13,9 @@ body {
 }
 
 main {
-	width: 85%;
+	width: 78%;
     height: 70%;
-    margin: auto;
+ 	margin: auto;
     margin-top: 100px;
 }
 
@@ -26,18 +26,21 @@ main aside {
 #home {
 	height: 30px;
 	width: 70px;
-	border-width: 3px;
+	border-width: 2px;
 	border-color: #1c5380;
 	display: inline-block;
 	border-style: solid;
 	border-radius: 5px;
 	color: white;
-	font-style: bold;
+	font-weight: bold;
 	font-family: Arial;
 	padding: 0 7px;
     float: right;
     margin-top: 24px;
     margin-right: 0px;
+    background: linear-gradient(#5980a0, #456077);
+}
+
 }
 
 #homelogo {
@@ -58,7 +61,7 @@ main aside {
 main section {
 	display: inline-block;
 	width: 500px;
-	margin: 30px;
+	margin-left: 30px;
 }
 
 #imgspacing {
